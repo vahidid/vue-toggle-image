@@ -1,7 +1,7 @@
 {
-  "name": "vue-toggle-image",
+  "name": "@ivahid/vue-toggle-image",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "./dist/vue-toggle-image.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
