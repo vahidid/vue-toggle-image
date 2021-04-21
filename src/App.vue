@@ -1,19 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VueToggleImage @onChange="onChangeToggle">
+      <img src="./assets/1920px-Flag_of_Iran.svg.png" />
+      <img src="./assets/bb4d485d.png" />
+    </VueToggleImage>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VueToggleImage from "./components/VueToggleImage.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    VueToggleImage,
+  },
+  methods: {
+    onChangeToggle(e) {
+      console.log(e);
+    },
+  },
+};
 </script>
 
 <style>
