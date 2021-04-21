@@ -31,7 +31,6 @@ export default {
 <style>
 .vue-toggle-container {
   display: flex;
-  max-width: 200px;
   background-color: #016d5d;
   border-radius: 15px;
   border: 5px solid #065b4e;
